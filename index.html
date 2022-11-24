@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Descubra o Número Secreto</title>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="page-title">
+      Descubra o Número Secreto
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt=""><br>
+    <p class="page-subtitle">
+      Digite um número de 0 a 10<br>
+    </p>
+    <input type="number" id="valor" onkeypress="botaoEnter(event)" /><br>
+    <button type="submit" onclick="Chutar()">Chutar</button>
+    <h2 class="resultado" id="resultado"></h2>
+    <h2 class="tentativas" id="tentativas"></h2><br>
+
+    <button onClick="resetar()">Jogar Novamente</button>
+
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+
+  <script  src="/script.js"></script>
+
+</body>
+</html>

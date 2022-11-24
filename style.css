@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("/imagens/background-magic-dark.jpg");
+  background-color: #602a24;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: rgb(240, 235, 245);
+  margin: 0 0 5px;
+  font-size: 60px;
+  text-shadow: 0 0 10px rgb(243, 7, 219)
+}
+
+.page-subtitle {
+  color: rgb(250, 248, 250);
+  margin-top: 50px;
+  font-size: 50px;
+  text-shadow: 0 0 10px rgb(250, 4, 168);
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 1rem;
+  font-size: 20px;
+  background: #311731;
+  color: azure;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 1rem;
+  background: #311731;
+  color: azure;
+  text-shadow:0 0 10px #ff02f2;
+  font-size: 20px;
+  
+}
+
+.resultado {
+  color: #efe5f0;
+  text-shadow:0 0 10px #ff02f2;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 16px;
+}
+h2 {
+  color: #efe5f0;
+  text-shadow:0 0 10px #ff02f2;
+  font-size: 25px;
+}
